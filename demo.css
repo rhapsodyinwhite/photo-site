@@ -1,15 +1,21 @@
 body {
 	color:black;
 	font-family: Andale Mono;
-	text-align: left;
-	background-color: #FFFFCC;
+	transition: all 2s ease;
+
 }
+
 
 .nav {
-	text-align: left;
-	padding-bottom:10px;
-}
+	position:fixed;
+	margin-left:600px;
 
+}
+.header {
+	text-align: left;
+	width:400px;
+	position:fixed;
+}
 
 a {
 	text-decoration: none;
@@ -24,17 +30,88 @@ ul {
 }
 #logo {
 	height:auto;
-	max-width:600px;
+	max-width:400px;
 }
-#recently {
+#photodisplay {
 	width:auto;
-    height:500px;
+    height:auto;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     display: inline;
+    margin-left: 50px;
+    margin-top: 270px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    float: right;
+    position: absolute;
 }
+#turquois {
+	width:auto;
+	height:600px;
+	padding-bottom:50px;
+}
+#brettdiptych {
+	width:auto;
+	height:700px;
+	padding-left: 50px;
+	padding-bottom:50px;
+}
+#grapefruit {
+	width:auto;
+	height:525px;
+	padding-left:50px;
+	padding-bottom:50px;
+}
+#tulips {
+	width:auto;
+	height:425px;
+	padding-top:300px;
+	padding-left:150px;
+}
+#liz {
+	width:auto;
+	height:375px;
+	position:absolute;
+	margin-left:-200px;
+}
+#outlet {
+	height:200px;
+	width:auto;
+	position:absolute;
+	margin-bottom: 70px;
+	margin-left:500px;
+}
+#VIP {
+	height:350px;
+	width:auto;
+	position:relative;
+	margin-left:420px;
+	margin-bottom:150px;
+}
+#unfocusedfossilcreek {
+	height:450px;
+	width:auto;
+	margin-left:150px;
+	margin-bottom:300px;
+}
+#luxuryconstruction {
+	height:500px;
+	width:auto;
+	margin-left:30px;
+	margin-bottom:200px;
+}
+#cigarettesilhouette {
+	height:400px;
+	width:auto;
+}
+
 img {
-	width: 100px;
+	width: 600px;
 	height: auto;
+}
+.nav {
+	position:left;
+	position:fixed;
+	margin-top: 20px;
 }
