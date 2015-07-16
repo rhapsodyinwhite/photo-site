@@ -1,7 +1,7 @@
 body {
 	color:black;
 	font-family: Andale Mono;
-	transition: all 2s ease;
+	background-color: #F0F8FF;
 
 }
 
@@ -10,11 +10,13 @@ body {
 	position:fixed;
 	margin-left:600px;
 
+
 }
 .header {
 	text-align: left;
 	width:400px;
 	position:fixed;
+
 }
 
 a {
@@ -22,7 +24,7 @@ a {
 	color:black;
 }
 a:hover {
-	color:#D3D3D3;
+	color:#FF69B4;
 	text-transform: uppercase;
 }
 ul {
@@ -39,17 +41,20 @@ ul {
     overflow-y: hidden;
     white-space: nowrap;
     display: inline;
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 270px;
-    margin-right: 50px;
+    padding-right: 50px;
     margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     float: right;
     position: absolute;
+    background-color: white;
 }
 #turquois {
 	width:auto;
 	height:600px;
-	padding-bottom:50px;
+	padding-bottom:100px;
 }
 #brettdiptych {
 	width:auto;
@@ -101,9 +106,113 @@ ul {
 	margin-left:30px;
 	margin-bottom:200px;
 }
-#cigarettesilhouette {
+#pinkstilllife {
+	height:300px;
+	width:auto;
+	margin-left:130px;
+	margin-bottom: 250px;
+}
+#bedroomwindow {
+	height:500px;
+	width:auto;
+	margin-left: 130px;
+}
+#bartsdangus {
+	height:375px;
+	width:auto;
+	margin-left: 150px;
+	margin-bottom: 150px;
+}
+#caseyswindshield {
+	height:300px;
+	width:auto;
+	margin-left: 75px;
+	margin-bottom: 50px;
+}
+#greenroom {
+	height:600px;
+	width:auto;
+	margin-left: 75px;
+	margin-bottom: 25px;
+}
+#headlight {
+	height:200px;
+	width: auto;
+	margin-left: 125px;
+	margin-bottom: 250px;
+}
+#devon {
+	height:500px;
+	width:auto;
+	margin-left: 40px;
+}
+#handinredlight {
+	height:250px;
+	width:auto;
+	margin-left: 50px;
+	margin-bottom: 167px;
+}
+#sparklingleaves {
+	height:500px;
+	width:auto;
+	margin-left: 125px;
+	margin-bottom: 110px;
+}
+#hardselfie {
+	height:300px;
+	width:auto;
+	margin-left:85px;
+	margin-bottom: 100px;
+}
+#nipple {
+	height:165px;
+	width:auto;
+	margin-left: 129px;
+	position:absolute;
+	margin-top:425px;
+	
+}
+#yellow {
+	height:317px;
+	width:auto;
+	margin-left:200px;
+	margin-bottom: 50px;
+	
+}
+#creosote {
+	height:387px;
+	width:auto;
+	margin-left: 125px;
+	margin-bottom: 100px;
+}
+#monsoonlake {
+	height:500px;
+	width:auto;
+	margin-left: 75px;
+}
+#scalp {
+	height:264px;
+	width:auto;
+	margin-left: 40px;
+	margin-bottom: 266px;
+}
+#milo {
+	height:300px;
+	width:auto;
+	margin-left: 100px;
+	margin-bottom: 200px;
+}
+#shelby {
+	height:575px;
+	width:auto;
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+#tempe2014 {
 	height:400px;
 	width:auto;
+	margin-left: 175px;
+	margin-bottom: 75px;
 }
 
 img {
