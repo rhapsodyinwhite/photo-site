@@ -42,7 +42,7 @@ ul {
     white-space: nowrap;
     display: inline;
     padding-left: 50px;
-    margin-top: 270px;
+    margin-top: 240px;
     padding-right: 50px;
     margin-bottom: 75px;
     padding-top: 50px;
@@ -51,6 +51,28 @@ ul {
     position: absolute;
     background-color: white;
 }
+.statement {
+	width:300px;
+	height:auto;
+	color: black;
+	position:relative;
+	float:left;
+	display:block;
+	margin-top: 60px;
+	word-wrap: break-word;
+	text-align: left;
+	line-height:auto;
+	margin-top: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+span {
+	display:inline-block;
+	vertical-align:middle;
+	line-height: normal;
+}
+
+/*RECENTLY*/
 #turquois {
 	width:auto;
 	height:600px;
@@ -215,9 +237,72 @@ ul {
 	margin-bottom: 75px;
 }
 
-img {
-	width: 600px;
-	height: auto;
+/*SIMULTANEOUS EXISTENCES*/
+#cherryblossom {
+	margin-left: 100px;
+}
+#toiletlightleak {
+	margin-left:50px;
+}
+#carefree {
+	margin-left:75px;
+}
+#prescottthrift {
+	margin-left:75px;
+}
+#pregnantfoil {
+	margin-left: 100px;
+}
+#waterbottle {
+	margin-left: 100px;
+}
+#allygoddess {
+	margin-left: 200px;
+}
+#mailbox {
+	margin-left:200px;
+}
+#owl {
+	margin-left: 50px;
+}
+#shenandoahs {
+	margin-left:75px;
+	margin-bottom: 40px;
+}
+#canal {
+	margin-left: 250px;
+}
+#paintedconcrete {
+	margin-left: 250px;
+}
+#boothyde {
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+#artifacts {
+	margin-left: 75px;
+}
+#pinkroses {
+	margin-left: 75px;
+}
+#skeleton {
+	margin-left: 75px;
+}
+#twoarmchairs {
+	margin-left: 100px;
+}
+#santa {
+	margin-left: 100px;
+}
+#bea {
+	margin-left: 75px;
+}
+#backyard {
+	margin-left: 100px;
+}
+#nana {
+	margin-left: 100px;
+	margin-right: 50px;
 }
 .nav {
 	position:left;
