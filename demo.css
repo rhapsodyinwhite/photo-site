@@ -2,21 +2,11 @@ body {
 	color:black;
 	font-family: Andale Mono;
 	background-color: #F0F8FF;
-
-}
-
-
-.nav {
-	position:fixed;
-	margin-left:600px;
-
-
 }
 .header {
 	text-align: left;
 	width:400px;
 	position:fixed;
-
 }
 
 a {
@@ -34,6 +24,12 @@ ul {
 	height:auto;
 	max-width:400px;
 }
+.nav {
+	position:left;
+	position:fixed;
+	margin-top: 20px;
+	margin-left: 600px;
+}
 #photodisplay {
 	width:auto;
     height:auto;
@@ -42,7 +38,7 @@ ul {
     white-space: nowrap;
     display: inline;
     padding-left: 50px;
-    margin-top: 240px;
+    margin-top: 150px;
     padding-right: 50px;
     margin-bottom: 75px;
     padding-top: 50px;
@@ -58,18 +54,18 @@ ul {
 	position:relative;
 	float:left;
 	display:block;
-	margin-top: 60px;
+	padding-top: 60px;
 	word-wrap: break-word;
 	text-align: left;
 	line-height:auto;
-	margin-top: 300px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-top: 210px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #F0F8FF;
 }
-span {
-	display:inline-block;
-	vertical-align:middle;
-	line-height: normal;
+.links {
+	margin-top: 200px;
+	margin-left: 500px;
 }
 
 /*RECENTLY*/
@@ -273,7 +269,7 @@ span {
 	margin-left: 250px;
 }
 #paintedconcrete {
-	margin-left: 250px;
+	margin-left: 100px;
 }
 #boothyde {
 	margin-left: 50px;
@@ -298,14 +294,195 @@ span {
 	margin-left: 75px;
 }
 #backyard {
-	margin-left: 100px;
+	margin-left: 300px;
 }
 #nana {
-	margin-left: 100px;
+	margin-left: 300px;
 	margin-right: 50px;
 }
-.nav {
-	position:left;
-	position:fixed;
-	margin-top: 20px;
+
+/*FROM TIGERS TO HONEYBEES*/
+.ft2hb {
+	height:350px;
+	width:auto;
 }
+#skeleton {
+	margin-bottom: 300px;
+	margin-left: 50px;
+}
+#daniel {
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+#pink-desert {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#boxscreen {
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+#men {
+	margin-left: 100px;
+	margin-bottom: 200px;
+}
+#kokopelli {
+	margin-bottom: 200px;
+	margin-left: 100px;
+}
+#brettpapago {
+	margin-left: 20px;
+	margin-bottom: 200px;
+}
+#airconditioning {
+	margin-left: 100px;
+	margin-bottom: 150px;
+}
+#creosotetruck {
+	margin-left: 100px;
+	margin-bottom: 250px;
+}
+#manwithbush {
+	margin-bottom: 250px;
+	margin-left: 20px;
+}
+#craig {
+	width:350px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+#lambdecal {
+	margin-left: 200px;
+	margin-bottom: 50px;
+}
+#elevator {
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+#jesus {
+	margin-left: 100px;
+	margin-bottom: 300px;
+}
+#memorialdesigns {
+	margin-bottom: 300px;
+	margin-left: 20px;
+}
+#hotdog {
+	margin-left: 25px;
+	margin-bottom: 150px;
+	width:350px;
+}
+#vendingmachine {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#melancholybull {
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+#wildturkey {
+	margin-bottom: 100px;
+	margin-left: 100px;
+}
+#wildbuck {
+	margin-left: 20px;
+	margin-bottom: 100px;
+}
+#chuandkelley {
+	margin-left: 200px;
+	margin-bottom: 75px;
+}
+#trophy {
+	margin-bottom: 75px;
+	margin-left: 20px;
+}
+#rednails {
+	margin-left: 20px;
+	margin-bottom: 75px;
+}
+#nextwindow {
+	margin-bottom: 25px;
+	margin-left: 200px;
+}
+#mom {
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+#hulagirl {
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+#cruisinon7th {
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+#water {
+	margin-bottom: 75px;
+	margin-left: 50px;
+}
+#beverlyjohnson {
+	margin-left: 20px;
+	margin-bottom: 75px;
+}
+#twomirrors {
+	margin-bottom: 75px;
+	margin-left: 75px;
+}
+#pinkdoor {
+	margin-left: 200px;
+	margin-bottom: 150px;
+}
+#hangingroses {
+	position:absolute;
+	margin-left: 50px;
+	margin-top: 53px;
+}
+#pinkgoo {
+	margin-bottom: -115px;
+	margin-left: 50px;
+}
+#trashselfie {
+	margin-left: 75px;
+	margin-bottom: 100px;
+}
+#exposedpink {
+	margin-left: 75px;
+	margin-bottom: 100px;
+}
+#pinkvelvet {
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+#laura {
+	width:350px;
+	margin-left: 50px;
+	margin-bottom: 150px;
+}
+#orangeextension {
+	width:350px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+}
+#ally {
+	width: 350px;
+	margin-bottom: 100px;
+	margin-left: 20px;
+}
+#matthewshall {
+	margin-left: 40px;
+	margin-bottom: 75px;
+}
+#yellowgun {
+	margin-bottom: 75px;
+	margin-left: 150px;
+}
+#homagetomeredith {
+	margin-left: 100px;
+	margin-bottom: 75px;
+}
+
+
+
+
+
+
