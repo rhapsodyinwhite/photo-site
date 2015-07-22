@@ -54,11 +54,11 @@ ul {
 	position:relative;
 	float:left;
 	display:block;
-	padding-top: 60px;
+	padding-top: 25px;
 	word-wrap: break-word;
 	text-align: left;
 	line-height:auto;
-	margin-top: 210px;
+	margin-top: 120px;
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: #F0F8FF;
@@ -66,6 +66,14 @@ ul {
 .links {
 	margin-top: 200px;
 	margin-left: 500px;
+	width:500px;
+}
+.cv {
+	margin-top:200px;
+	margin-left:500px;
+	width:800px;
+	background-color: white;
+	position:absolute;
 }
 
 /*RECENTLY*/
@@ -77,13 +85,13 @@ ul {
 #brettdiptych {
 	width:auto;
 	height:700px;
-	padding-left: 50px;
+	padding-left: 200px;
 	padding-bottom:50px;
 }
 #grapefruit {
 	width:auto;
 	height:525px;
-	padding-left:50px;
+	padding-left:150px;
 	padding-bottom:50px;
 }
 #tulips {
@@ -112,6 +120,17 @@ ul {
 	margin-left:420px;
 	margin-bottom:150px;
 }
+#milotooth {
+	margin-left: 150px;
+	margin-bottom: 200px;
+	height:400px;
+}
+#brettLA {
+	height:600px;
+	width:auto;
+	margin-left: 300px;
+	margin-bottom: 50px;
+}
 #unfocusedfossilcreek {
 	height:450px;
 	width:auto;
@@ -124,10 +143,16 @@ ul {
 	margin-left:30px;
 	margin-bottom:200px;
 }
+#laurenp {
+	height:600px;
+	width:auto;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
 #pinkstilllife {
 	height:300px;
 	width:auto;
-	margin-left:130px;
+	margin-left:250px;
 	margin-bottom: 250px;
 }
 #bedroomwindow {
@@ -156,8 +181,8 @@ ul {
 #headlight {
 	height:200px;
 	width: auto;
-	margin-left: 125px;
-	margin-bottom: 250px;
+	margin-left: 300px;
+	margin-bottom: 375px;
 }
 #devon {
 	height:500px;
@@ -167,7 +192,7 @@ ul {
 #handinredlight {
 	height:250px;
 	width:auto;
-	margin-left: 50px;
+	margin-left: 150px;
 	margin-bottom: 167px;
 }
 #sparklingleaves {
@@ -176,26 +201,38 @@ ul {
 	margin-left: 125px;
 	margin-bottom: 110px;
 }
+#southplatte {
+	margin-left: 250px;
+	margin-bottom: 250px;
+	height:400px;
+	width:auto;
+}
+#brettinthebath {
+	margin-bottom: 100px;
+	margin-left: 250px;
+}
 #hardselfie {
 	height:300px;
 	width:auto;
-	margin-left:85px;
+	margin-left:200px;
 	margin-bottom: 100px;
+}
+#styrofoam {
+	height:600px;
+	margin-bottom: 150px;
+	margin-left: 100px;
 }
 #nipple {
 	height:165px;
 	width:auto;
-	margin-left: 129px;
-	position:absolute;
-	margin-top:425px;
-	
+	margin-left: 200px;
+	margin-bottom:250px;
 }
 #yellow {
 	height:317px;
 	width:auto;
-	margin-left:200px;
-	margin-bottom: 50px;
-	
+	padding-left:20px;
+	padding-bottom: 50px;
 }
 #creosote {
 	height:387px;
@@ -220,6 +257,11 @@ ul {
 	margin-left: 100px;
 	margin-bottom: 200px;
 }
+#cigarettesilhouette {
+	height:575px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
 #shelby {
 	height:575px;
 	width:auto;
@@ -234,6 +276,10 @@ ul {
 }
 
 /*SIMULTANEOUS EXISTENCES*/
+.simex {
+	height:600px;
+	width:auto;
+}
 #cherryblossom {
 	margin-left: 100px;
 }
@@ -263,7 +309,6 @@ ul {
 }
 #shenandoahs {
 	margin-left:75px;
-	margin-bottom: 40px;
 }
 #canal {
 	margin-left: 250px;
@@ -271,18 +316,24 @@ ul {
 #paintedconcrete {
 	margin-left: 100px;
 }
+#synthetic {
+	margin-left: 150px;
+}
 #boothyde {
-	margin-left: 50px;
-	margin-bottom: 30px;
+	margin-left: 100px;
 }
 #artifacts {
+	margin-left: 75px;
+}
+#vatican {
 	margin-left: 75px;
 }
 #pinkroses {
 	margin-left: 75px;
 }
-#skeleton {
+#skeletondecal {
 	margin-left: 75px;
+
 }
 #twoarmchairs {
 	margin-left: 100px;
@@ -479,6 +530,12 @@ ul {
 #homagetomeredith {
 	margin-left: 100px;
 	margin-bottom: 75px;
+}
+/*NOTES*/
+#notes {
+	margin-left: 120px;
+	height:600px;
+	width:auto;
 }
 
 

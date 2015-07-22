@@ -6,41 +6,16 @@
 	<link rel="shortcut icon" href="images/nail.ico" />
 	<title>Abigail Lynch | Notes</title>
 
-<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-<style type="text/css">
-    a.fancybox img {
-        border: none;
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
-</style>
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css"/>
+	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" language="javascript" src="fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$(".fancybox").fancybox();
+	});
+	</script>
 </head>
 <body>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-<script type="text/javascript">
-    $(function($){
-        var addToAll = true;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-</script>
 	<table>
 		<td>
 			<div class="header">
@@ -56,22 +31,29 @@
 				<a href="/Simulacra">Simulacra</a> / 
 				<a href="/Notes.html">Notes</a><br>
 				<a href="/About">About</a> / 
+				<a href="/CV.html">CV</a> / 
 				<a href="http://abigailclynch.tumblr.com/">Blog</a> / 
 				<a href="/links.html">Links</a>
 			</div>
 		</td>
+	</table>
+		<div class="statement">
+		<p>
+			Eleven images produced during my undergrad education while studying the view camera. They were printed on 16" x 20" silver gelatin paper and shown at Cartel Coffee Lab in Tempe, AZ during February of 2013. 
+		</p>
+	</div>
 	<td>
 		<div id="photodisplay">
-			<img src="images/notes/antifountain.jpg"/>
-			<img src="images/notes/breathingdoors.jpg"/>
-			<img src="images/notes/etbone.jpg"/>
-			<img src="images/notes/lamb.jpg"/>
-			<img src="images/notes/moon.jpg"/>
-			<img src="images/notes/notes.jpg"/>
-			<img src="images/notes/palms.jpg"/>
-			<img src="images/notes/portal.jpg"/>
-			<img src="images/notes/toilet.jpg"/>
-			<img src="images/notes/UFO.jpg"/>
+			<a class="fancybox" rel="group" href="images/notes/antifountain-large.jpg"><img id="notes" src="images/notes/antifountain.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/breathingdoors-large.jpg"><img id="notes" src="images/notes/breathingdoors.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/etbone-large.jpg"><img id="notes" src="images/notes/etbone-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/lamb-large.jpg"><img id="notes" src="images/notes/lamb-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/moon-large.jpg"><img id="notes" src="images/notes/moon-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/notes-large.jpg"><img id="notes" src="images/notes/notes-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/palms-large.jpg"><img id="notes" src="images/notes/palms-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/portal-large.jpg"><img id="notes" src="images/notes/portal-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/toilet-large.jpg"><img id="notes" src="images/notes/toilet-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/notes/UFO-large.jpg"><img id="notes" src="images/notes/UFO-large.jpg"/></a>
 		</div>
 	</td>
 </body>

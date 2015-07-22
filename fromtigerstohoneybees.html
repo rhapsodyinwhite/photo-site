@@ -6,41 +6,17 @@
 	<link rel="shortcut icon" href="images/nail.ico" />
 	<title>Abigail Lynch | From Tigers to Honeybees</title>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-<style type="text/css">
-    a.fancybox img {
-        border: none;
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css"/>
+	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" language="javascript" src="fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$(".fancybox").fancybox();
+	});
+	</script>
 </style>
 </head>
 <body>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-	<script type="text/javascript">
-    $(function($){
-        var addToAll = true;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-	</script>
 	<table>
 		<td>
 			<div class="header">
@@ -56,6 +32,7 @@
 						<a href="/Simulacra.html">Simultaneous Existences</a> / 
 						<a href="/notes.html">Notes</a><br>
 						<a href="/About.html">About</a> / 
+						<a href="/CV.html">CV</a> / 
 						<a href="http://abigailclynch.tumblr.com/">Blog</a> / 
 						<a href="/links.html">Links</a>
 			</div>
@@ -68,54 +45,57 @@
 
 				“We do not define our art, but rather it some how defines us, as hexagonal labyrinths of wax both circumscribe and detail the honeybee”<br><br>
 
-				Thus, this sequence of photographs conveys the visual language of photography, explaining my ideas without words, which are at last gratuitous.
+				Thus, this sequence of photographs conveys the visual language of photography, explaining my ideas without words, which are at last gratuitous.<br>
+				----------------------------
+				<br>
+				The images are displayed to mirror the installation from the <i>Strange Acquaintance</i> exhibition in 2014, as seen <a class="fancybox" rel="group" href="images/ft2hb/installation.jpg"><u>here</a></u>.<br>Photo by Clarita Lulic.
 			</p>
 		</div>
 
 
 		<div id="photodisplay">
-			<img class="ft2hb" id="skeleton" src="images/ft2hb/skeletonhand.jpg"/>
-			<img class="ft2hb" id="daniel" src="images/ft2hb/daniel.jpg"/>
-			<img class="ft2hb" id="pink-desert" src="images/ft2hb/pink-desert.jpg"/>
-			<img class="ft2hb" id="boxscreen" src="images/ft2hb/box_screen.jpg"/>
-			<img class="ft2hb" id="men" src="images/ft2hb/men.jpg"/>
-			<img class="ft2hb" id="kokopelli" src="images/ft2hb/kokopelli.jpg"/>
-			<img class="ft2hb" id="brettpapago" src="images/ft2hb/brett.jpg"/>
-			<img class="ft2hb" id="airconditioning" src="images/ft2hb/airconditioning.jpg"/>
-			<img class="ft2hb" id="creosotetruck" src="images/ft2hb/creosote_truck.jpg"/>
-			<img class="ft2hb" id="manwithbush" src="images/ft2hb/man-with-bush.jpg"/>
-			<img id="craig" src="images/ft2hb/atinyburnthand.jpg"/>
-			<img class="ft2hb" id="lambdecal" src="images/ft2hb/lamb.jpg"/>
-			<img class="ft2hb" id="elevator" src="images/ft2hb/elevator.jpg"/>
-			<img class="ft2hb" id="jesus" src="images/ft2hb/jesus.jpg"/>
-			<img class="ft2hb" id="memorialdesigns" src="images/ft2hb/memorial-designs.jpg"/>
-			<img id="hotdog" src="images/ft2hb/hotdog.jpg"/>
-			<img class="ft2hb" id="vendingmachine" src="images/ft2hb/vendingmachine.jpg"/>
-			<img class="ft2hb" id="melancholybull" src="images/ft2hb/melancholybull.jpg"/>
-			<img class="ft2hb" id="wildturkey" src="images/ft2hb/wildturkey.jpg"/>
-			<img class="ft2hb" id="wildbuck" src="images/ft2hb/wildbuck.jpg"/>
-			<img class="ft2hb" id="chuandkelley" src="images/ft2hb/chu-and-kelley.jpg"/>
-			<img class="ft2hb" id="trophy" src="images/ft2hb/trophy.jpg"/>
-			<img class="ft2hb" id="rednails" src="images/ft2hb/rednails.jpg"/>
-			<img class="ft2hb" id="nextwindow" src="images/ft2hb/NEXT-WINDOW.jpg"/>
-			<img class="ft2hb" id="mom" src="images/ft2hb/mom.jpg"/>
-			<img class="ft2hb" id="hulagirl" src="images/ft2hb/hula-girl.jpg"/>
-			<img class="ft2hb" id="cruisinon7th" src="images/ft2hb/cruisinon7th.jpg"/>
-			<img class="ft2hb" id="water" src="images/ft2hb/water.jpg"/>
-			<img class="ft2hb" id="beverlyjohnson" src="images/ft2hb/beverly-johnson.jpg"/>
-			<img class="ft2hb" id="twomirrors" src="images/ft2hb/two-mirrors.jpg"/>
-			<img class="ft2hb" id="pinkdoor" src="images/ft2hb/pinkdoor.jpg"/>
-			<img class="ft2hb" id="hangingroses" src="images/ft2hb/hangingroses.jpg"/>
-			<img class="ft2hb" id="pinkgoo" src="images/ft2hb/pinkgoo.jpg"/>
-			<img class="ft2hb" id="trashselfie" src="images/ft2hb/trashselfie.jpg"/>
-			<img class="ft2hb" id="exposedpink" src="images/ft2hb/exposedpink.jpg"/>
-			<img class="ft2hb" id="pinkvelvet" src="images/ft2hb/pink-velvet.jpg"/>
-			<img id="laura" src="images/ft2hb/laura.jpg"/>
-			<img id="orangeextension" src="images/ft2hb/orange-extension.jpg"/>
-			<img id="ally" src="images/ft2hb/ally.jpg"/>
-			<img class="ft2hb" id="matthewshall" src="images/ft2hb/matthews-hall.jpg"/>
-			<img class="ft2hb" id="yellowgun" src="images/ft2hb/yellow-gun.jpg"/>
-			<img class="ft2hb" id="homagetomeredith" src="images/ft2hb/homagetomeredith.jpg"/>
+			<a class="fancybox" rel="group" href="images/ft2hb/skeletonhand-large.jpg"><img class="ft2hb" id="skeleton" src="images/ft2hb/skeletonhand.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/daniel-large.jpg"><img class="ft2hb" id="daniel" src="images/ft2hb/daniel.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/pink-desert-large.jpg"><img class="ft2hb" id="pink-desert" src="images/ft2hb/pink-desert.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/box_screen-large.jpg"><img class="ft2hb" id="boxscreen" src="images/ft2hb/box_screen.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/men-large.jpg"><img class="ft2hb" id="men" src="images/ft2hb/men.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/kokopelli-large.jpg"><img class="ft2hb" id="kokopelli" src="images/ft2hb/kokopelli.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/brett-large.jpg"><img class="ft2hb" id="brettpapago" src="images/ft2hb/brett.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/airconditioning-large.jpg"><img class="ft2hb" id="airconditioning" src="images/ft2hb/airconditioning.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/creosote_truck-large.jpg"><img class="ft2hb" id="creosotetruck" src="images/ft2hb/creosote_truck.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/man-with-bush-large.jpg"><img class="ft2hb" id="manwithbush" src="images/ft2hb/man-with-bush.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/atinyburnthand-large.jpg"><img id="craig" src="images/ft2hb/atinyburnthand.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/lamb-large.jpg"><img class="ft2hb" id="lambdecal" src="images/ft2hb/lamb.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/elevator-large.jpg"><img class="ft2hb" id="elevator" src="images/ft2hb/elevator.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/jesus-large.jpg"><img class="ft2hb" id="jesus" src="images/ft2hb/jesus.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/memorial-designs-large.jpg"><img class="ft2hb" id="memorialdesigns" src="images/ft2hb/memorial-designs.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/hotdog-large.jpg"><img id="hotdog" src="images/ft2hb/hotdog.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/vendingmachine-large.jpg"><img class="ft2hb" id="vendingmachine" src="images/ft2hb/vendingmachine.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/melancholybull-large.jpg"><img class="ft2hb" id="melancholybull" src="images/ft2hb/melancholybull.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/wildturkey-large.jpg"><img class="ft2hb" id="wildturkey" src="images/ft2hb/wildturkey.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/wildbuck-large.jpg"><img class="ft2hb" id="wildbuck" src="images/ft2hb/wildbuck.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/chu-and-kelley-large.jpg"><img class="ft2hb" id="chuandkelley" src="images/ft2hb/chu-and-kelley.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/trophy-large.jpg"><img class="ft2hb" id="trophy" src="images/ft2hb/trophy.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/rednails-large.jpg"><img class="ft2hb" id="rednails" src="images/ft2hb/rednails.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/NEXTWINDOW-large.jpg"><img class="ft2hb" id="nextwindow" src="images/ft2hb/NEXT-WINDOW.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/mom-large.jpg"><img class="ft2hb" id="mom" src="images/ft2hb/mom.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/hula-girl-large.jpg"><img class="ft2hb" id="hulagirl" src="images/ft2hb/hula-girl.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/cruisinon7th-large.jpg"><img class="ft2hb" id="cruisinon7th" src="images/ft2hb/cruisinon7th.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/water-large.jpg"><img class="ft2hb" id="water" src="images/ft2hb/water.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/beverly-johnson-large.jpg"><img class="ft2hb" id="beverlyjohnson" src="images/ft2hb/beverly-johnson.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/two-mirrors-large.jpg"><img class="ft2hb" id="twomirrors" src="images/ft2hb/two-mirrors.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/pinkdoor-large.jpg"><img class="ft2hb" id="pinkdoor" src="images/ft2hb/pinkdoor.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/hangingroses-large.jpg"><img class="ft2hb" id="hangingroses" src="images/ft2hb/hangingroses.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/pinkgoo-large.jpg"><img class="ft2hb" id="pinkgoo" src="images/ft2hb/pinkgoo.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/trashselfie-large.jpg"><img class="ft2hb" id="trashselfie" src="images/ft2hb/trashselfie.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/exposedpink-large.jpg"><img class="ft2hb" id="exposedpink" src="images/ft2hb/exposedpink.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/pink-velvet-large.jpg"><img class="ft2hb" id="pinkvelvet" src="images/ft2hb/pink-velvet.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/laura-large.jpg"><img id="laura" src="images/ft2hb/laura.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/orange-extension-large.jpg"><img id="orangeextension" src="images/ft2hb/orange-extension.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/ally-large.jpg"><img id="ally" src="images/ft2hb/ally.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/matthews-hall-large.jpg"><img class="ft2hb" id="matthewshall" src="images/ft2hb/matthews-hall.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/yellow-gun-large.jpg"><img class="ft2hb" id="yellowgun" src="images/ft2hb/yellow-gun.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/ft2hb/homagetomeredith-large.jpg"><img class="ft2hb" id="homagetomeredith" src="images/ft2hb/homagetomeredith.jpg"/></a>
 
 
 

@@ -6,41 +6,16 @@
 	<link rel="shortcut icon" href="images/nail.ico" />
 	<title>Abigail Lynch</title>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-<style type="text/css">
-    a.fancybox img {
-        border: none;
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
-</style>
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css"/>
+	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" language="javascript" src="fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$(".fancybox").fancybox();
+	});
+	</script>
 </head>
 <body>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-<script type="text/javascript">
-    $(function($){
-        var addToAll = true;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-</script>
 	<table>
 		<td>
 			<div class="header">
@@ -56,42 +31,52 @@
 						<a href="/SimultaneousExistences.html">Simultaneous Existences</a> / 
 						<a href="/notes.html">Notes</a><br>
 						<a href="/About.html">About</a> / 
+						<a href="/CV.html">CV</a> / 
 						<a href="http://abigailclynch.tumblr.com/">Blog</a> / 
 						<a href="/links.html">Links</a>
 			</div>
 		</td>
 	<td>
 		<div id="photodisplay">
-            	<img id="turquois" src="images/recently/Turquois-bag.jpg"/>
-				<img id="brettdiptych" src="images/recently/brett-diptych.jpg"/>
-				<img id="grapefruit" src="images/recently/grapefruit.jpg"/>
-				<img id="tulips" src="images/recently/tulips.jpg"/>
-				<img id="liz" src="images/recently/liz.jpg"/>
-				<img id="outlet" src="images/recently/outlet.jpg"/>
-				<img id="VIP" src="images/recently/VIP.jpg"/>
-				<img id="unfocusedfossilcreek" src="images/recently/unfocused-fossil-creek.jpg"/>
-				<img id="luxuryconstruction" src="images/recently/luxury-construction.jpg"/>
-				<img id="pinkstilllife" src="images/recently/pinkstilllife.jpg"/>
-				<img id="bedroomwindow" src="images/recently/bedroom-window.jpg"/>
-				<img id="bartsdangus" src="images/recently/Barts-Dangus.jpg"/>
-				<img id="caseyswindshield" src="images/recently/caseys-windshield.jpg"/>
-				<img id="greenroom" src="images/recently/greenroom.jpg"/>
-				<img id="headlight" src="images/recently/headlight.jpg"/>
-				<img id="devon" src="images/recently/devon.jpg"/>
-				<img id="handinredlight" src="images/recently/hand-in-red-light.jpg"/>
-				<img id="sparklingleaves" src="images/recently/sparkling-leaves.jpg"/>
-				<img id="hardselfie" src="images/recently/hard-selfie.jpg"/>
-				<img id="nipple" src="images/recently/nipple.jpg"/>
-				<img id="yellow" src="images/recently/yellow.jpg"/>
-				<img id="creosote" src="images/recently/creosote.jpg"/>
-				<img id="monsoonlake" src="images/recently/monsoon-lake.jpg"/>
-				<img id="scalp" src="images/recently/scalp.jpg"/>
-				<img id="milo" src="images/recently/milo.jpg"/>
-				<img id="shelby" src="images/recently/shelby.jpg"/>
-				<img id="tempe2014" src="images/recently/tempe2014.jpg"/>
+            	<a class="fancybox" rel="group" href="images/recently/Turquois-bag-large.jpg"><img id="turquois" src="images/recently/Turquois-bag.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/brett-diptych-large.jpg"><img id="brettdiptych" src="images/recently/brett-diptych.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/grapefruit-large.jpg"><img id="grapefruit" src="images/recently/grapefruit.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/tulips-large.jpg"><img id="tulips" src="images/recently/tulips.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/liz-large.jpg"><img id="liz" src="images/recently/liz.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/outlet-large.jpg"><img id="outlet" src="images/recently/outlet.jpg"/></a>
+
+				<a class="fancybox" rel="group" href="images/recently/VIP-large.jpg"><img id="VIP" src="images/recently/VIP.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/milo_tooth.jpg"><img id="milotooth" src="images/recently/milo_tooth.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/brett-los-angeles-large.jpg"><img id="brettLA" src="images/recently/brett-los-angeles.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/unfocused-fossil-creek-large.jpg"><img id="unfocusedfossilcreek" src="images/recently/unfocused-fossil-creek.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/luxury-construction-large.jpg"><img id="luxuryconstruction" src="images/recently/luxury-construction.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/lauren-p.jpg"><img id="laurenp" src="images/recently/lauren-p.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/pinkstilllife-large.jpg"><img id="pinkstilllife" src="images/recently/pinkstilllife.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/our-room-large.jpg"><img id="bedroomwindow" src="images/recently/bedroom-window.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/barts-dangus-large.jpg"><img id="bartsdangus" src="images/recently/Barts-Dangus.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/caseys-windshield-large.jpg"><img id="caseyswindshield" src="images/recently/caseys-windshield.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/greenroom-large.jpg"><img id="greenroom" src="images/recently/greenroom.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/headlight-large.jpg"><img id="headlight" src="images/recently/headlight.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/devon-sunglasses-large.jpg"><img id="devon" src="images/recently/devon-sunglasses.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/hand-in-red-light-large.jpg"><img id="handinredlight" src="images/recently/hand-in-red-light.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/sparkling-leaves-large.jpg"><img id="sparklingleaves" src="images/recently/sparkling-leaves.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/south-platte-large.jpg"><img id="southplatte" src="images/recently/south-platte.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/brett-in-the-bath-large.jpg"><img id="brettinthebath" src="images/recently/brett-in-the-bath.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/hard-selfie-large.jpg"><img id="hardselfie" src="images/recently/hard-selfie.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/styrofoam.jpg"><img id="styrofoam" src="images/recently/styrofoam.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/nipple-large.jpg"><img id="nipple" src="images/recently/nipple.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/yellow-large.jpg"><img id="yellow" src="images/recently/yellow.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/creosote-large.jpg"><img id="creosote" src="images/recently/creosote.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/monsoon-lake-large.jpg"><img id="monsoonlake" src="images/recently/monsoon-lake.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/scalp-large.jpg"><img id="scalp" src="images/recently/scalp.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/milo-large.jpg"><img id="milo" src="images/recently/milo.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/cigarette-silhouette-large.jpg"><img id="cigarettesilhouette" src="images/recently/cigarette-silhouette.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/shelby-large.jpg"><img id="shelby" src="images/recently/shelby.jpg"/></a>
+				<a class="fancybox" rel="group" href="images/recently/tempe2014-large.jpg"><img id="tempe2014" src="images/recently/tempe2014.jpg"/></a>
 
 		</div>
 	</td>
 </table>
+
 </body>
 </html> 

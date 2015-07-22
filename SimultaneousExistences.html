@@ -6,41 +6,16 @@
 	<link rel="shortcut icon" href="images/nail.ico" />
 	<title>Abigail Lynch | Simultaneous Existences</title>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-<style type="text/css">
-    a.fancybox img {
-        border: none;
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
-</style>
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css"/>
+	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" language="javascript" src="fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$(".fancybox").fancybox();
+	});
+	</script>
 </head>
 <body>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-<script type="text/javascript">
-    $(function($){
-        var addToAll = true;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-</script>
 	<table>
 		<td>
 			<div class="header">
@@ -56,6 +31,7 @@
 						<a href="/Simulacra.html">Simultaneous Existences</a> / 
 						<a href="/notes.html">Notes</a><br>
 						<a href="/About.html">About</a> / 
+						<a href="/CV.html">CV</a> / 
 						<a href="http://abigailclynch.tumblr.com/">Blog</a> / 
 						<a href="/links.html">Links</a>
 			</div>
@@ -63,38 +39,37 @@
 	</table>
 
 	<div class="statement">
-				<p>
-					These images were produced during the formative years of my undergrad education. They deal heavily with the influence of color, the photographic sequence and relationships between images, the essence of reality and the notion of time. The ideas are heavily influenced by Jean Boudreard's <i>Simulacra and Simulation</i>.
-				</p>
-			</div>
+		<p>
+			These images were produced during the formative years of my undergrad education, largely a study of color and the sequential form. The ideas are heavily influenced by Jean Boudreard's <i>Simulacra and Simulation</i> and <a href="http://www.MichaelDLundgren.com">Michael Lundgren</a>.
+		</p>
+	</div>
 
 
 
 		<div id="photodisplay">
-			
-			<a name="start"></a>
-			<img id="cherryblossom" src="images/simultaneousexistences/cherryblossom.jpg"/>
-			<img id="toiletlightleak" src="images/simultaneousexistences/toiletlightleak.jpg"/>
-			<img id="carefree" src="images/simultaneousexistences/carefree.jpg"/>
-			<img id="prescottthrift" src="images/simultaneousexistences/prescottthrift.jpg"/>
-			<img id="pregnantfoil" src="images/simultaneousexistences/pregnantfoil.jpg"/>
-			<img id="waterbottle" src="images/simultaneousexistences/waterbottle.jpg"/>
-			<img id="allygoddess" src="images/simultaneousexistences/allygoddess.jpg"/>
-			<img id="mailbox" src="images/simultaneousexistences/mailbox.jpg"/>
-			<img id="owl" src="images/simultaneousexistences/owlinpalmfarm.jpg"/>
-			<img id="shenandoahs" src="images/simultaneousexistences/shenandoahs.jpg"/>
-			<img id="canal" src="images/simultaneousexistences/canal.jpg"/>
-			<img id="backyard" src="images/simultaneousexistences/backyard.jpg"/>
-			<img id="paintedconcrete" src="images/simultaneousexistences/paintedconcrete.jpg"/>
-			<img id="boothyde" src="images/simultaneousexistences/boothyde.jpg"/>
-			<img id="artifacts" src="images/simultaneousexistences/artifacts.jpg"/>
-			<img id="pinkroses" src="images/simultaneousexistences/pinkroses.jpg"/>
-			<img id="skeleton" src="images/simultaneousexistences/skeletondecal.jpg"/>
-			<img id="twoarmchairs" src="images/simultaneousexistences/twoarmchairs.jpg"/>
-			<img id="santa" src="images/simultaneousexistences/santa.jpg"/>
-			<img id="bea" src="images/simultaneousexistences/bea.jpg"/>
-			<img id="nana" src="images/simultaneousexistences/nana.jpg"/>
-			<a href="website/simultaneousexistence.html#start">Back to beginning</a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/cherryblossom-large.jpg"><img id="cherryblossom" class="simex" src="images/simultaneousexistences/cherryblossom.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/toiletlightleak-large.jpg"><img id="toiletlightleak" class="simex"src="images/simultaneousexistences/toiletlightleak.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/carefree-large.jpg"><img id="carefree" class="simex"src="images/simultaneousexistences/carefree.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/prescottthrift-large.jpg"><img id="prescottthrift" class="simex"src="images/simultaneousexistences/prescottthrift.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/pregnantfoil-large.jpg"><img id="pregnantfoil" class="simex"src="images/simultaneousexistences/pregnantfoil.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/waterbottle-large.jpg"><img id="waterbottle" class="simex"src="images/simultaneousexistences/waterbottle.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/allygoddess-large.jpg"><img id="allygoddess" class="simex"src="images/simultaneousexistences/allygoddess.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/mailbox-large.jpg"><img id="mailbox" class="simex"src="images/simultaneousexistences/mailbox.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/owl-large.jpg"><img id="owl" class="simex"src="images/simultaneousexistences/owl.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/shenandoahs-large.jpg"><img id="shenandoahs" class="simex"src="images/simultaneousexistences/shenandoahs-large.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/canal-large.jpg"><img id="canal" class="simex"src="images/simultaneousexistences/canal.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/backyard-large.jpg"><img id="backyard" class="simex"src="images/simultaneousexistences/backyard.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/paintedconcrete-large.jpg"><img id="paintedconcrete" class="simex"src="images/simultaneousexistences/paintedconcrete.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/synthetic-large.jpg"><img id="synthetic" class="simex"src="images/simultaneousexistences/synthetic.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/boothyde-large.jpg"><img id="boothyde" class="simex"src="images/simultaneousexistences/boothyde.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/artifacts-large.jpg"><img id="artifacts" class="simex"src="images/simultaneousexistences/artifacts.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/vatican-large.jpg"><img id="vatican" class="simex"src="images/simultaneousexistences/vatican.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/pinkroses-large.jpg"><img id="pinkroses" class="simex"src="images/simultaneousexistences/pinkroses.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/skeletondecal-large.jpg"><img id="skeletondecal" class="simex"src="images/simultaneousexistences/skeletondecal.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/twoarmchairs-large.jpg"><img id="twoarmchairs" class="simex"src="images/simultaneousexistences/twoarmchairs.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/santa-large.jpg"><img id="santa" class="simex"src="images/simultaneousexistences/santa.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/bea-large.jpg"><img id="bea" class="simex"src="images/simultaneousexistences/bea.jpg"/></a>
+			<a class="fancybox" rel="group" href="images/simultaneousexistences/nana-large.jpg"><img id="nana" class="simex"src="images/simultaneousexistences/nana.jpg"/></a>
 		</div>
 	</table>
 </html>
